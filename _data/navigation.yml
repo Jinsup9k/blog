@@ -10,5 +10,11 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  title: "공부"
-  url: /work/
+  - title: "공부"
+    url: /work/
+  - title: "일상"
+    url: /life/
+  - title: "취미"
+    url: /hobby/
+  - title: "contact"
+    url: /contact/

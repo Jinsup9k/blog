@@ -21,13 +21,13 @@ title_separator: " | "
 subtitle: # site tagline that appears below site title in masthead
 name: "진수박스"
 description: "요절복통 좌충우돌 얼렁뚱땅"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl: # the subpath of your site, e.g. "/blog"
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url: "https://jinsup9k.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "" # the subpath of your site, e.g. "/blog"
+repository: "Jinsup9k/jinsup9k.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -93,7 +93,7 @@ analytics:
 # Site Author
 author:
   name: "진수박스"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "../assets/img/pjs.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "난 너무 멋져"
   location: "Somewhere"
   email:
@@ -125,10 +125,10 @@ footer:
     #   # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: " "
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url:
+      url: " "
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   # url:
@@ -137,7 +137,7 @@ footer:
     #   # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url:
+      url: " "
 
 # Reading Files
 include:
@@ -203,7 +203,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
@@ -266,6 +266,17 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "/contact"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: true
+      related: false
