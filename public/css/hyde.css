@@ -54,7 +54,8 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255, 255, 255, 0.5);
-  background: url("/public/img/watermelron.jpg") center top #006600 no-repeat;
+  background: url("/public/img/ss1.jpg") #006600 no-repeat;
+  background-size: 100% 20rem;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -64,7 +65,8 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
-    background: url("/public/img/watermelron.jpg") no-repeat #006600;
+    background: url("/public/img/ss1.jpg") no-repeat #006600;
+    background-size: auto 32em;
   }
 }
 
@@ -92,6 +94,7 @@ html {
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
+  color: #008000;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
@@ -101,8 +104,8 @@ a.sidebar-nav-item:focus {
 }
 .profile .my-image {
   overflow: hidden;
-  width: 150px;
-  height: 150px;
+  width: 7rem;
+  height: 7rem;
   border: #008000 2px solid;
   border-radius: 50%;
   margin-left: auto;
