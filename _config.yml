@@ -11,10 +11,10 @@ title: JINS
 # tagline: "A Jekyll theme"
 # description: 'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url: https://jinsup9k.github.io
-baseurl: /
+baseurl: https://jinsup9k.github.io
 
 author:
-  name: "JINS"
+  name: "JINSBOX"
   url: https://jinsup9k.github.io
 
 paginate: 5
