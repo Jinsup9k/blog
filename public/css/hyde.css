@@ -54,7 +54,7 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255, 255, 255, 0.5);
-  background-color: #202020;
+  background: url("/public/img/watermelron.jpg") center top #006600 no-repeat;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -64,6 +64,7 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
+    background: url("/public/img/watermelron.jpg") no-repeat #006600;
   }
 }
 
@@ -82,7 +83,7 @@ html {
 
 /* Sidebar nav */
 .sidebar-nav {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .sidebar-nav-item {
   display: block;
@@ -95,6 +96,23 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+.profile {
+  margin-top: 20px;
+}
+.profile .my-image {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border: #008000 2px solid;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("/public/img/pjs.png") no-repeat center center #fff;
+  background-size: cover;
+}
+.profile h3 {
+  color: #f2f2f2;
+}
 
 /* Sticky sidebar
  *
@@ -106,8 +124,11 @@ a.sidebar-nav-item:focus {
   .sidebar-sticky {
     position: absolute;
     right: 1rem;
-    bottom: 1rem;
+    top: 3rem;
     left: 1rem;
+  }
+  .profile {
+    margin-top: 250px;
   }
 }
 
