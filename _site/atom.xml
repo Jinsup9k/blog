@@ -4,13 +4,25 @@
  <title>JINS</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-06-04T19:24:35+09:00</updated>
+ <updated>2020-06-05T18:55:35+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>JINS</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>나의 첫 글</title>
+   <link href="http://localhost:4000/2020/06/05/first/"/>
+   <updated>2020-06-05T18:34:35+09:00</updated>
+   <id>http://localhost:4000/2020/06/05/first</id>
+   <content type="html">&lt;h1 id=&quot;안녕하세요&quot;&gt;안녕하세요&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;저는 박진수 라고 합니다&lt;/strong&gt;
+블로그 포스팅을 위한 .sh 파일 작성 테스트입니다.&lt;/p&gt;
+</content>
+ </entry>
  
 
 </feed>
