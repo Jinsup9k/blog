@@ -3,7 +3,7 @@ markdown: kramdown
 highlighter: pygments
 
 # Permalinks
-permalink: pretty
+permalink: /:categories/:year/:month/:day/:title
 relative_permalinks: false
 
 # Setup
@@ -14,7 +14,7 @@ url: https://jinsup9k.github.io
 baseurl:
 
 author:
-  name: "JINS"
+  name: "JINSBOX"
   url: https://jinsup9k.github.io
 
 paginate: 5
