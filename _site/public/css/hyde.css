@@ -49,13 +49,24 @@ html {
  * Flexible banner for housing site name, intro, and "footer" content. Starts
  * out above content in mobile and later moves to the side with wider viewports.
  */
+.toggle-sidebar {
+  left: 0;
+}
 
 .sidebar {
-  text-align: center;
+  position: fixed;
   padding: 2rem 1rem 1rem 1rem;
   color: rgba(255, 255, 255, 0.5);
-  background: url("/public/img/ss1.jpg") #006600 no-repeat;
+  /* background: url("/public/img/ss1.jpg") #006600 no-repeat; */
+  background-color: #008800;
   background-size: 100% 20rem;
+  height: 100%;
+  left: -250px;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -65,9 +76,18 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
-    background: url("/public/img/ss1.jpg") no-repeat #006600;
+    background: url("/public/img/ss1.jpg") no-repeat #008800;
     background-size: auto 32em;
   }
+}
+.menu-icon-div {
+  font-size: 18pt;
+  position: fixed;
+  left: 6px;
+  top: 6px;
+}
+.menu-icon-div i {
+  cursor: pointer;
 }
 
 /* Sidebar links */
@@ -109,7 +129,7 @@ a.sidebar-nav-item:focus {
   height: 7rem;
   border: #008000 2px solid;
   border-radius: 50%;
-  margin-left: auto;
+  /* margin-left: auto; */
   margin-right: auto;
   background: url("/public/img/pjs.png") no-repeat center center #fff;
   background-size: cover;
@@ -152,6 +172,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
+  padding-left: 3rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
