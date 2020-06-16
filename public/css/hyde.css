@@ -75,7 +75,7 @@ html {
     background-size: auto 32em;
   }
   .menu-icon-div {
-    /* display: none; */
+    display: none;
   }
 }
 .menu-icon-div {
@@ -87,7 +87,7 @@ html {
 .menu-icon-div i {
   position: fixed;
   cursor: pointer;
-  color: #f2f2f2;
+  color: #898989;
 }
 
 /* Sidebar links */
@@ -176,6 +176,7 @@ a.sidebar-nav-item:focus {
   padding-top: 4rem;
   padding-bottom: 4rem;
   height: 100%;
+  background: #fafffa;
 }
 
 @media (min-width: 48em) {
@@ -184,6 +185,7 @@ a.sidebar-nav-item:focus {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    background: #f2f2f2;
   }
 }
 
@@ -192,6 +194,7 @@ a.sidebar-nav-item:focus {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    background: #f2f2f2;
   }
 }
 
