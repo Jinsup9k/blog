@@ -57,16 +57,11 @@ html {
   position: fixed;
   padding: 2rem 1rem 1rem 1rem;
   color: rgba(255, 255, 255, 0.5);
-  /* background: url("/public/img/ss1.jpg") #006600 no-repeat; */
+  background: url("/public/img/ss1.jpg") #008800 no-repeat;
   background-color: #008800;
   background-size: 100% 20rem;
   height: 100%;
   left: -250px;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -79,6 +74,9 @@ html {
     background: url("/public/img/ss1.jpg") no-repeat #008800;
     background-size: auto 32em;
   }
+  .menu-icon-div {
+    /* display: none; */
+  }
 }
 .menu-icon-div {
   font-size: 18pt;
@@ -87,7 +85,9 @@ html {
   top: 6px;
 }
 .menu-icon-div i {
+  position: fixed;
   cursor: pointer;
+  color: #f2f2f2;
 }
 
 /* Sidebar links */
@@ -175,20 +175,23 @@ a.sidebar-nav-item:focus {
   padding-left: 3rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  height: 100%;
 }
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
+    min-width: 38rem;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -206,6 +209,7 @@ a.sidebar-nav-item:focus {
   .layout-reverse .content {
     margin-left: 2rem;
     margin-right: 20rem;
+    height: 100%;
   }
 }
 
@@ -213,6 +217,7 @@ a.sidebar-nav-item:focus {
   .layout-reverse .content {
     margin-left: 4rem;
     margin-right: 22rem;
+    height: 100%;
   }
 }
 
