@@ -32,14 +32,23 @@
 html {
   font-family: "Nanum Gothic Coding", monospace;
 }
+body {
+  height: 1000px;
+}
 @media (min-width: 48em) {
   html {
     font-size: 16px;
+  }
+  body {
+    height: 1000px;
   }
 }
 @media (min-width: 58em) {
   html {
     font-size: 20px;
+  }
+  body {
+    height: 1000px;
   }
 }
 
@@ -176,7 +185,7 @@ a.sidebar-nav-item:focus {
   padding-top: 4rem;
   padding-bottom: 4rem;
   height: 100%;
-  background: #fafffa;
+  background: #f2f2f2;
 }
 
 @media (min-width: 48em) {
