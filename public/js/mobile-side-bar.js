@@ -1,11 +1,13 @@
 $(document).ready(function () {
   $(".menu-icon-div").click(function () {
-    if ($(".sidebar").css("left") == "-250px") {
+    if ($(".sidebar").css("left") == "-300px") {
       $(".sidebar").animate({ width: "show", left: "0" }, 200, function () {});
-      //   $(".menu-icon-div").css("display", "none");
     } else {
-      $(".sidebar").animate({ left: "-250px" }, 200, function () {});
-      $(".menu-icon-div").css("color", "#797979");
+      $(".sidebar").animate(
+        { width: "hide", left: "-300px" },
+        200,
+        function () {}
+      );
     }
   });
 
