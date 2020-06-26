@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Hello Android
-date: 2020-06-21 17:24:55
+date: 2020-06-21 17:24:55 +0900
 tags:
 categories:
 ---
