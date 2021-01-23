@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jinsup9k/jinsup9k.github.io.git"
+    "url": "git+https://github.com/Jinsup9k/blog.git"
   },
   "keywords": [
     "[]"
@@ -20,9 +20,9 @@
   "author": "JINS",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jinsup9k/jinsup9k.github.io/issues"
+    "url": "https://github.com/Jinsup9k/blog/issues"
   },
-  "homepage": "https://github.com/Jinsup9k/jinsup9k.github.io#readme",
+  "homepage": "https://github.com/Jinsup9k/blog#readme",
   "dependencies": {
     "express": "^4.17.1",
     "next": "^7.0.2",
