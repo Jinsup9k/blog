@@ -9105,7 +9105,7 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_History__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/History */ "./components/History.js");
+/* harmony import */ var _components_History__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/History */ "./components/History.js");
 var _this = undefined,
     _jsxFileName = "/Volumes/D/git-blog/blog/pages/index.js";
 
@@ -9119,7 +9119,7 @@ var _this = undefined,
       lineNumber: 5,
       columnNumber: 9
     }
-  }, "Home", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_History__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Home", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_History__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
