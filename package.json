@@ -1,0 +1,36 @@
+{
+  "name": "jinsup9k.github.io",
+  "version": "1.0.0",
+  "description": "jinsBlog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jinsup9k/jinsup9k.github.io.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "JINS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jinsup9k/jinsup9k.github.io/issues"
+  },
+  "homepage": "https://github.com/Jinsup9k/jinsup9k.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^7.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
+}

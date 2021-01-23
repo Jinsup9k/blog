@@ -1,6 +1,6 @@
 _site
 .sass-cache
-.jekyll-cache
-.jekyll-metadata
 vendor
 new.sh
+node_modules/
+pacakge-lock.json
