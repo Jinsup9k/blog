@@ -6502,7 +6502,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Volumes/D/git-blog/jinsup9k.github.io/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Volumes/D/git-blog/blog/.next");
       return error;
     }
   };
@@ -18087,7 +18087,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Volumes/D/git-blog/jinsup9k.github.io/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
+module.exports = __webpack_require__(/*! /Volumes/D/git-blog/blog/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
 
 
 /***/ }),

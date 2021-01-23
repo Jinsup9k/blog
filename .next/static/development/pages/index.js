@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _this = undefined,
-    _jsxFileName = "/Volumes/D/git-blog/jinsup9k.github.io/pages/index.js";
+    _jsxFileName = "/Volumes/D/git-blog/blog/pages/index.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {

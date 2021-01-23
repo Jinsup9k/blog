@@ -6259,7 +6259,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_58572173d5d0f39474c5
 /***/ (function(module, exports, __webpack_require__) {
 
 __NEXT_REGISTER_PAGE('/_error', function() {
-module.exports = __webpack_require__(/*! /Volumes/D/git-blog/jinsup9k.github.io/node_modules/next/dist/pages/_error.js */"./node_modules/next/dist/pages/_error.js");
+module.exports = __webpack_require__(/*! /Volumes/D/git-blog/blog/node_modules/next/dist/pages/_error.js */"./node_modules/next/dist/pages/_error.js");
 
 return { page: module.exports.default }});
 
