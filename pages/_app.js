@@ -1,19 +1,26 @@
-import React from 'react';
 import App, { Container } from 'next/app';
 import Head from 'next/head';
-import CssBaseline from '@material-ui/core/CssBaseline';
+import React from 'react';
 
-import Layout from '../components/material/Layout';
+const styles = {
+    layout: {
+        display: 'flex',
+        width: '100%',
+        height: '100%',
+        flexDirection: 'column',
+    },
+    header: {
+        height: 60,
+    },
+    main: {
+        flex: 1,
+    },
+    footer: {
+        height: 60,
+    },
+}
 
 export default class RootApp extends App {
-    componentDidMount() {
-        // Remove the server-side injected CSS.
-        const jssStyles = document.querySelector('#jss-server-side');
-        if (jssStyles) {
-            jssStyles.parentNode.removeChild(jssStyles);
-        }
-    }
-
     render() {
         const { Component, ...other } = this.props;
         return (
@@ -21,10 +28,13 @@ export default class RootApp extends App {
                 <Head>
                     <title>Static Website</title>
                 </Head>
-                <CssBaseline />
-                <Layout>
-                    <Component {...other} />
-                </Layout>
+                <div style={styles.layout}>
+                    <header style={styles.header}>Header</header>
+                    <main style={styles.main}>
+                        <Component {...other} />
+                    </main>
+                    <footer style={styles.footer}>Footer</footer>
+                </div>
             </Container>
         );
     }

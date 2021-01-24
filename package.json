@@ -1,39 +1,24 @@
 {
-  "name": "jinsup9k.github.io",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "jinsBlog",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "export": "next export"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jinsup9k/blog.git"
-  },
-  "keywords": [
-    "[]"
-  ],
   "author": "JINS",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jinsup9k/blog/issues"
-  },
-  "homepage": "https://github.com/Jinsup9k/blog#readme",
   "dependencies": {
-    "@material-ui/core": "^4.11.2",
-    "@material-ui/icons": "^4.11.2",
-    "@material-ui/styles": "^4.11.2",
-    "express": "^4.17.1",
     "next": "^7.0.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@babel/node": "^7.12.10",
-    "@babel/preset-env": "^7.12.11"
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4"
   }
 }

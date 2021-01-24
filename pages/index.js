@@ -1,10 +1,7 @@
-import History from '../components/History';
+import React from 'react'
 
-export default (props) => {
-    return (
-        <div>
-            Home
-            <History />
-        </div>
-    );
-}
+export default () => (
+  <div>
+    Hello, from Next.js!
+  </div>
+);
